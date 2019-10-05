@@ -1,19 +1,189 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>씽투의 음악학원-Welcome</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        margin: 0;
+      }
+      .nav {
+        height: 70px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-right-items {
+        display: flex;
+        margin-left: auto;
+      }
+
+      .nav-item {
+        margin-left: 10px;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+
+      .main {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+
+      .prices {
+       display: flex;
+       text-align: center;
+      }
+      .price-item {
+        width: 300px;
+        height: 350px;
+        border: 1px solid black;
+        margin: 20px;
+        border-radius: 4px;
+      }
+
+      .price-item-title {
+        font-size: 1.5rem;
+        background: rgba(0,0,0,.03);
+        text-align: center;
+        height: 53px;
+        line-height: 53px;
+        border-bottom: 1px solid black;
+      }
+
+      .price-item-price {
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 20px;
+      }
+
+      .price-item-button {
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+        color: #007bff;
+        background-color: transparent;
+        background-image: none;
+        border-color: #007bff;
+        margin-top: 20px;
+      }
+
+      .price-item-button-active {
+        background-color: #007bff;
+        color: white;
+      }
+
+      .price-item-detail {
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+        
+    </style>
   </head>
   <body>
-    <h1><a href="index.html">씽투디오</a></h1>
-    <ol>
-      <li><a href="insa.html">씽투 인사말</a></li>
-      <li><a href="lesson.html">레슨 과정</a></li>
-      <li><a href="community.html">커뮤니티</a></li>
-    </ol>
-    <h2>씽투디오</h2>
-    씽투디오는 Sing Together + Studio 의 약자로 같이 노래하는 스튜디오라는 뜻으로
-    만든 음악을 공부하는 곳입니다. 씽투 선생님과 함께 노래하고 춤추면서 바뀌어가는
-    자신을 느끼며 인생에 활기를 느껴보시길 바랍니다.
+    <div class="nav">
+      <div class="nav-right-items">
+        <div class="nav-item">메뉴1</div>
+        <div class="nav-item">메뉴2</div>
+        <div class="nav-item">메뉴3</div>
+        <div class="nav-item">메뉴4</div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="title">
+        씽투디오
+      </div>
+      <div class="subtitle">
+      씽투디오에 오신걸 환영합니다
+      </div>
+
+      <div class="prices">
+        <div class="price-item">
+          <div class="price-item-title">
+            프라이스
+          </div>
+          <div class="price-item-price">
+            dd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <button class="price-item-button">
+            click me
+          </button>
+        </div>
+        <div class="price-item">
+          <div class="price-item-title">
+            프라이스
+          </div>
+          <div class="price-item-price">
+            dd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <button class="price-item-button price-item-button-active">
+            click me
+          </button>
+        </div>
+        <div class="price-item">
+          <div class="price-item-title">
+            프라이스
+          </div>
+          <div class="price-item-price">
+            dd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <div class="price-item-detail">
+            ddfd
+          </div>
+          <button class="price-item-button price-item-button-active">
+            click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script/js"></script>
   </body>
 </html>
